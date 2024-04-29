@@ -19,24 +19,24 @@ choice = 1
 
 while choice >= 1 and choice < 4:
     print("Enter a number from 1-4")
-    print("1, Deposit Money")
-    print("2, Withdraw Money")
-    print("3, Check Balance")
-    print("4, Exit")
-    choice = int(input("What is your choice"))
+    print("1. Deposit Money ")
+    print("2. Withdraw Money ")
+    print("3. Check Balance ")
+    print("4. Exit ")
+    choice = int(input("What is your choice "))
     if choice == 1:
-       deposit = float(input("how much is the deposit?"))
+       deposit = float(input("how much is the deposit? "))
        Balance = Balance + deposit
        print("Your new balance is $",Balance, "you deposited", deposit)
     elif choice == 2:
-        withdraw = float(input("how much do you wish to withdraw?"))
+        withdraw = float(input("how much do you wish to withdraw? "))
         Balance = Balance - withdraw
         print("You withdrew", withdraw, "your new balance is $", Balance)
 
     elif choice == 3:
         print("your current balance $", Balance)
     elif choice == 4:
-        print("Thank you for stopping by! See you soon :)")
+        print("Thank you for stopping by! See you soon :) ")
     else: print("Invalid entry")
         
              
