@@ -2,12 +2,12 @@
 
 """This program computes a final grade using 3 homeworks, 2 labs, and a test.
 Algorithm
-1.Ask the user for 3 homework grades HW1, HW2, HW3
-2.Ask the user for 2 lab grades Lab1, Lab2
-3.Ask the user for the test grade Exam
-4.HWK_avg = (HW1 + HW2 + HW3) / 3
+1. Ask the user for 3 homework grades HW1, HW2, HW3
+2. Ask the user for 2 lab grades Lab1, Lab2
+3. Ask the user for the test grade Exam
+4. HWK_avg = (HW1 + HW2 + HW3) / 3
 5. Lab_avg = (Lab1 + Lab 2) / 2
-6.Formula for points is Homework * .50 * Lab * .20 * Exam * .30
+6. Formula for points is Homework * .50 * Lab * .20 * Exam * .30
 7. Compute the points for each category
 8. Output the points for each category
 9. Compute the total points (HW * Lab * Exam)
