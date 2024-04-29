@@ -5,7 +5,7 @@ print("Enter items to add to the list. Enter 'done' when finished.")
 while True:
     item = input("Enter item: ")
     if item.lower() == 'done':
-        print("Terminating input process.")
+        print("Done adding to list.")
         break
     elif item in myList:
         print("It's already in List.")
