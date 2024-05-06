@@ -12,7 +12,6 @@ def compare_text(file1, file2):
             if line1 != line2:
                 return "No\n" + f"File 1: {line1.strip()}\nFile 2: {line2.strip()}"
             
-
 if __name__ == "__main__":
     file1 = input("Enter the name of the first text file: ")
     file2 = input("Enter the name of the second text file: ")
